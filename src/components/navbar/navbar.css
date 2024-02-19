@@ -46,6 +46,16 @@
     margin: 0 1rem;
     cursor: pointer;
 }
+.gpt3__navbar-links_container p {
+    transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+.gpt3__navbar-links_container p:hover {
+    background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
